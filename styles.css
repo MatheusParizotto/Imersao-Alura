@@ -77,3 +77,38 @@ body {
     text-transform: none;
     padding: 20px 10px;
 }
+
+.library .library_content .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .library_content .fa-plus {
+    margin: 24px 10px;   
+} 
+
+.section_playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+}
+
+.section_playlist .section_playlist_content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section_playlist_content .text {
+    padding-bottom: 14px;
+    color: #ffffff;
+}
